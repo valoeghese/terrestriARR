@@ -1,4 +1,4 @@
-# Copyright Valoeghese 2019 All Rights Reserved for internal reference purposes.
+# Copyright Valoeghese 2019, 2020 All Rights Reserved for internal reference purposes.
 com.terraformersmc.terrestria.Terrestria -> com.terraformersmc.terrestria.Terrestria:
     net.minecraft.class_1761 itemGroup -> a
     com.terraformersmc.terraform.config.BiomeConfigHandler biomeConfigHandler -> a
