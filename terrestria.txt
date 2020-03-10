@@ -1,0 +1,538 @@
+# Copyright Valoeghese 2019 All Rights Reserved for internal reference purposes.
+com.terraformersmc.terrestria.Terrestria -> com.terraformersmc.terrestria.Terrestria:
+    net.minecraft.class_1761 itemGroup -> a
+    com.terraformersmc.terraform.config.BiomeConfigHandler biomeConfigHandler -> a
+    org.apache.logging.log4j.Logger log -> a
+    void <init>() -> <init>
+    void onInitialize() -> onInitialize
+    net.minecraft.class_1799 lambda$onInitialize$0() -> a
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.TerrestriaClient -> com.terraformersmc.terrestria.TerrestriaClient:
+    net.minecraft.class_1921 GRASS_BLOCK_LAYER -> a
+    net.minecraft.class_1921 PLANT_BLOCK_LAYER -> b
+    net.minecraft.class_322 FOLIAGE_BLOCK_COLORS -> a
+    net.minecraft.class_322 GRASS_BLOCK_COLORS -> b
+    net.minecraft.class_326 FOLIAGE_ITEM_COLORS -> a
+    net.minecraft.class_326 GRASS_ITEM_COLORS -> b
+    void <init>() -> <init>
+    void onInitializeClient() -> onInitializeClient
+    void addBoatRenderer(net.minecraft.class_1299) -> a
+    net.minecraft.class_897 lambda$addBoatRenderer$4(net.minecraft.class_898,net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry$Context) -> a
+    int lambda$static$3(net.minecraft.class_1799,int) -> a
+    int lambda$static$2(net.minecraft.class_1799,int) -> b
+    int lambda$static$1(net.minecraft.class_2680,net.minecraft.class_1920,net.minecraft.class_2338,int) -> a
+    int lambda$static$0(net.minecraft.class_2680,net.minecraft.class_1920,net.minecraft.class_2338,int) -> b
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.biome.CalderaBiomes -> com.terraformersmc.terrestria.a:
+    boolean setBlockState(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338,net.minecraft.class_2680,net.minecraft.class_3341) -> a
+    void <init>() -> <init>
+    com.terraformersmc.terrestria.biome.CalderaBiomes register$44cf1ff9(java.lang.String,com.terraformersmc.terrestria.init.helpers.StoneBlocks) -> a
+com.terraformersmc.terrestria.biome.CypressForestBiomes -> com.terraformersmc.terrestria.b:
+    void <init>() -> <init>
+    com.terraformersmc.terrestria.biome.CypressForestBiomes register$5ce8b9b9(java.lang.String,com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks) -> a
+    com.terraformersmc.terrestria.biome.CypressForestBiomes register$7089f6c3(java.lang.String,java.lang.String,com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks) -> a
+com.terraformersmc.terrestria.biome.CypressSwampBiomes -> com.terraformersmc.terrestria.c:
+    net.minecraft.class_1747 log -> a
+    net.minecraft.class_1747 leaves -> b
+    net.minecraft.class_1747 planks -> c
+    net.minecraft.class_1747 strippedLog -> d
+    com.terraformersmc.terraform.item.TerraformBoatItem boat -> a
+    void <init>() -> <init>
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes register$555a915d(java.lang.String,com.terraformersmc.terrestria.init.helpers.WoodBlocks,java.util.function.Supplier) -> a
+com.terraformersmc.terrestria.block.BasaltFlowerBlock -> com.terraformersmc.terrestria.d:
+    void <init>(net.minecraft.class_1291,int,net.minecraft.class_2248$class_2251) -> <init>
+    net.minecraft.class_265 method_9530(net.minecraft.class_2680,net.minecraft.class_1922,net.minecraft.class_2338,net.minecraft.class_3726) -> method_9530
+com.terraformersmc.terrestria.block.BasaltGrassBlock -> com.terraformersmc.terrestria.e:
+    void <init>(net.minecraft.class_2248,java.util.function.Supplier,net.minecraft.class_2248$class_2251) -> <init>
+    void method_9652(net.minecraft.class_3218,java.util.Random,net.minecraft.class_2338,net.minecraft.class_2680) -> method_9652
+com.terraformersmc.terrestria.block.ShrublingGenerator -> com.terraformersmc.terrestria.f:
+    net.minecraft.class_4643 config -> a
+    void <init>(net.minecraft.class_4643) -> <init>
+    net.minecraft.class_2975 method_11430(java.util.Random) -> method_11430
+    boolean method_11431(net.minecraft.class_1936,net.minecraft.class_2794,net.minecraft.class_2338,net.minecraft.class_2680,java.util.Random) -> method_11431
+com.terraformersmc.terrestria.command.LocateAny -> com.terraformersmc.terrestria.g:
+    com.mojang.brigadier.exceptions.SimpleCommandExceptionType FAILED_EXCEPTION -> a
+    void register() -> a
+    void lambda$execute$4(net.minecraft.class_2338,net.minecraft.class_2583) -> a
+    void lambda$register$3(com.mojang.brigadier.CommandDispatcher) -> a
+    void lambda$null$2(com.mojang.brigadier.builder.LiteralArgumentBuilder,java.lang.String) -> a
+    int lambda$null$1(java.lang.String,com.mojang.brigadier.context.CommandContext) -> a
+    boolean lambda$null$0(net.minecraft.class_2168) -> a
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.feature.TreeDefinition -> com.terraformersmc.terrestria.h:
+com.terraformersmc.terrestria.feature.TreeDefinition$Mega -> com.terraformersmc.terrestria.i:
+    net.minecraft.class_2680 log -> a
+    net.minecraft.class_2680 leaves -> b
+    net.minecraft.class_2680 bark -> c
+    net.minecraft.class_2680 logQuarter -> d
+    void <init>(net.minecraft.class_2680,net.minecraft.class_2680,net.minecraft.class_2680,net.minecraft.class_2680) -> <init>
+    net.minecraft.class_2680 getLog() -> a
+    net.minecraft.class_2680 getLeaves() -> b
+    net.minecraft.class_2680 getLogQuarter() -> c
+    net.minecraft.class_2680 getBark() -> d
+com.terraformersmc.terrestria.feature.trees.CypressTreeFeature -> com.terraformersmc.terrestria.j:
+    void <init>(java.util.function.Function) -> <init>
+    void growTrunk(java.util.Set,java.util.Random,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,net.minecraft.class_3341,net.minecraft.class_4640) -> a
+    void growLeaves(java.util.Set,java.util.Random,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,double,net.minecraft.class_3341,net.minecraft.class_4640) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+    void lambda$growLeaves$0(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,net.minecraft.class_2338$class_2339) -> a
+com.terraformersmc.terrestria.feature.trees.HemlockTreeFeature -> com.terraformersmc.terrestria.k:
+    void <init>(java.util.function.Function) -> <init>
+com.terraformersmc.terrestria.feature.trees.HemlockTreeFeatureMega -> com.terraformersmc.terrestria.l:
+    void <init>(java.util.function.Function,com.terraformersmc.terrestria.feature.TreeDefinition$Mega) -> <init>
+com.terraformersmc.terrestria.feature.trees.JapaneseMapleTreeFeature -> com.terraformersmc.terrestria.m:
+    void <init>(java.util.function.Function) -> <init>
+    void placeBranch(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643,net.minecraft.class_2350,int) -> a
+com.terraformersmc.terrestria.feature.trees.PalmTreeFeature -> com.terraformersmc.terrestria.n:
+    net.minecraft.class_2680 bark -> a
+    void <init>(java.util.function.Function,net.minecraft.class_2680) -> <init>
+    net.minecraft.class_2350 spiral(net.minecraft.class_2350,boolean) -> a
+    void growTrunk(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    void growLeaves(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640) -> a
+    void placeSpiral(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,net.minecraft.class_2350,boolean) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+    boolean lambda$generate$0(net.minecraft.class_2680) -> a
+com.terraformersmc.terrestria.feature.trees.PalmTreeFeature$1 -> com.terraformersmc.terrestria.o:
+    int[] $SwitchMap$net$minecraft$util$math$Direction -> a
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.feature.trees.RedwoodTreeFeature -> com.terraformersmc.terrestria.p:
+    void <init>(java.util.function.Function) -> <init>
+    int getBareTrunkHeight(java.util.Random) -> a
+    int getMaxLeafRadius(java.util.Random) -> b
+com.terraformersmc.terrestria.feature.trees.RedwoodTreeFeatureMega -> com.terraformersmc.terrestria.q:
+    com.terraformersmc.terrestria.feature.TreeDefinition$Mega tree -> a
+    void <init>(java.util.function.Function,com.terraformersmc.terrestria.feature.TreeDefinition$Mega) -> <init>
+    void growRoots(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,java.util.Random,net.minecraft.class_3341) -> a
+    void tryGrowRoot$1781174d(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,java.util.Random,net.minecraft.class_3341) -> a
+    int getHeight(java.util.Random) -> a
+    int getBareTrunkHeight(java.util.Random) -> b
+    boolean lambda$tryGrowRoot$0(net.minecraft.class_2680) -> a
+com.terraformersmc.terrestria.feature.trees.RubberTreeFeature -> com.terraformersmc.terrestria.r:
+    void <init>(java.util.function.Function) -> <init>
+    void growTrunk(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    void growBranches(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+com.terraformersmc.terrestria.feature.trees.SakuraTreeFeature -> com.terraformersmc.terrestria.s:
+    void <init>(java.util.function.Function) -> <init>
+    void placeBranch(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643,net.minecraft.class_2350,int) -> a
+com.terraformersmc.terrestria.feature.trees.WillowTreeFeature -> com.terraformersmc.terrestria.t:
+    void <init>(java.util.function.Function) -> <init>
+    void growTrunk(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    void growBranches(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    void growLeaves(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int,double,double) -> a
+    double radiusFactor(double,double) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+    void lambda$growLeaves$1(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int,int,net.minecraft.class_2338$class_2339) -> a
+    void lambda$growTrunk$0(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,net.minecraft.class_2338$class_2339) -> a
+com.terraformersmc.terrestria.feature.trees.components.Branches -> com.terraformersmc.terrestria.u:
+    void placeBranch(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643,net.minecraft.class_2350,int) -> a
+com.terraformersmc.terrestria.feature.trees.decorator.FixSmallLogsDecorator -> com.terraformersmc.terrestria.v:
+    void <init>() -> <init>
+    void method_23469(net.minecraft.class_1936,java.util.Random,java.util.List,java.util.List,java.util.Set,net.minecraft.class_3341) -> method_23469
+    java.lang.Object method_19508(com.mojang.datafixers.types.DynamicOps) -> method_19508
+    boolean lambda$generate$0(boolean,net.minecraft.class_2680) -> a
+com.terraformersmc.terrestria.feature.trees.decorator.SakuraLeafPileDecorator -> com.terraformersmc.terrestria.w:
+    int chance -> a
+    void <init>(int) -> <init>
+    void method_23469(net.minecraft.class_1936,java.util.Random,java.util.List,java.util.List,java.util.Set,net.minecraft.class_3341) -> method_23469
+    java.lang.Object method_19508(com.mojang.datafixers.types.DynamicOps) -> method_19508
+    boolean lambda$generate$0(net.minecraft.class_2338,net.minecraft.class_2680) -> a
+com.terraformersmc.terrestria.feature.trees.templates.CanopyTreeFeatureMega -> com.terraformersmc.terrestria.x:
+    com.terraformersmc.terrestria.feature.TreeDefinition$Mega tree -> a
+    void <init>(java.util.function.Function,com.terraformersmc.terrestria.feature.TreeDefinition$Mega) -> <init>
+    boolean canTreeReplace(net.minecraft.class_3746,net.minecraft.class_2338) -> a
+    void growTrunk(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,net.minecraft.class_3341) -> a
+    void growBranches(java.util.Set,java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,int,java.util.Random,net.minecraft.class_3341) -> a
+    void tryGrowRoot(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,java.util.Random,net.minecraft.class_3341) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+    boolean lambda$tryGrowRoot$5(net.minecraft.class_2680) -> a
+    void lambda$growBranches$4(net.minecraft.class_3747,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_2338$class_2339) -> a
+    void lambda$growBranches$3(net.minecraft.class_3747,java.util.Set,net.minecraft.class_2338$class_2339,net.minecraft.class_3341,net.minecraft.class_2338$class_2339) -> a
+    boolean lambda$null$2(net.minecraft.class_2680) -> b
+    boolean lambda$generate$1(net.minecraft.class_2680) -> c
+    boolean lambda$canTreeReplace$0(net.minecraft.class_2680) -> d
+com.terraformersmc.terrestria.feature.trees.templates.ConiferTreeFeature -> com.terraformersmc.terrestria.y:
+    void <init>(java.util.function.Function) -> <init>
+    void growLeaves(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int,int,int) -> a
+    void growTrunk(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    int getBareTrunkHeight(java.util.Random) -> a
+    int getMaxLeafRadius(java.util.Random) -> b
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+com.terraformersmc.terrestria.feature.trees.templates.ConiferTreeFeatureMega -> com.terraformersmc.terrestria.z:
+    com.terraformersmc.terrestria.feature.TreeDefinition$Mega tree -> a
+    void <init>(java.util.function.Function,com.terraformersmc.terrestria.feature.TreeDefinition$Mega) -> <init>
+    void growLeaves(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338,int,int,int,net.minecraft.class_3341) -> a
+    void growTrunk(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,net.minecraft.class_3341) -> a
+    int getHeight(java.util.Random) -> a
+    int getBareTrunkHeight(java.util.Random) -> b
+    void growRoots(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,int,java.util.Random,net.minecraft.class_3341) -> a
+    void tryGrowRoot$1781174d(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338$class_2339,java.util.Random,net.minecraft.class_3341) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+com.terraformersmc.terrestria.feature.trees.templates.JapaneseTreeFeature -> com.terraformersmc.terrestria.A:
+    void <init>(java.util.function.Function) -> <init>
+    void growTrunk(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int) -> a
+    void tryPlaceLeaves(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> a
+    void growLeaves(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,int,double) -> a
+    boolean method_12775(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4643) -> method_12775
+    void lambda$growLeaves$4(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338$class_2339,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,net.minecraft.class_2338$class_2339) -> a
+    void lambda$growLeaves$3(java.util.Random,int,net.minecraft.class_2338,net.minecraft.class_3747,java.util.Set,java.util.Set,net.minecraft.class_3341,net.minecraft.class_4640,net.minecraft.class_2338$class_2339) -> a
+    boolean lambda$tryPlaceLeaves$2(java.util.Set,net.minecraft.class_3747,net.minecraft.class_2338,net.minecraft.class_3341,net.minecraft.class_2680) -> a
+    boolean lambda$tryPlaceLeaves$1(net.minecraft.class_2248,net.minecraft.class_2680) -> a
+    boolean lambda$generate$0(net.minecraft.class_2680) -> a
+com.terraformersmc.terrestria.feature.volcano.VolcanoGenerator -> com.terraformersmc.terrestria.B:
+    com.terraformersmc.terraform.noise.SimpleRadialNoise radiusNoise -> a
+    com.terraformersmc.terraform.noise.SimpleRadialNoise vegetationNoise -> b
+    com.terraformersmc.terraform.noise.SimpleRadialNoise chamberNoise -> c
+    com.terraformersmc.terraform.noise.OpenSimplexNoise chamberOreNoise -> a
+    int height -> a
+    int radius -> b
+    int lavaHeight -> c
+    int lavaTubeLength -> d
+    int baseY -> e
+    int chamberHeight -> f
+    boolean underwater -> a
+    long chamberOreSeed -> a
+    int centerX -> g
+    int centerZ -> h
+    void <init>(java.util.Random,int,int,net.minecraft.class_1959) -> <init>
+    void <init>(net.minecraft.class_3485,net.minecraft.class_2487) -> <init>
+    double shape(double) -> a
+    double curve(double) -> b
+    void method_14943(net.minecraft.class_2487) -> method_14943
+    boolean method_14931(net.minecraft.class_1936,net.minecraft.class_2794,java.util.Random,net.minecraft.class_3341,net.minecraft.class_1923) -> method_14931
+    net.minecraft.class_2680 pickRandomChamberBlock(boolean,int,int) -> a
+com.terraformersmc.terrestria.feature.volcano.VolcanoStructureFeature -> com.terraformersmc.terrestria.C:
+    void <init>(java.util.function.Function) -> <init>
+    net.minecraft.class_1923 method_14018(net.minecraft.class_2794,java.util.Random,int,int,int,int) -> method_14018
+    boolean method_14026(net.minecraft.class_4543,net.minecraft.class_2794,java.util.Random,int,int,net.minecraft.class_1959) -> method_14026
+    net.minecraft.class_3195$class_3774 method_14016() -> method_14016
+    java.lang.String method_14019() -> method_14019
+    int method_14021() -> method_14021
+com.terraformersmc.terrestria.feature.volcano.VolcanoStructureFeature$VolcanoStructureStart -> com.terraformersmc.terrestria.D:
+    void <init>(net.minecraft.class_3195,int,int,net.minecraft.class_3341,int,long) -> <init>
+    void method_16655(net.minecraft.class_2794,net.minecraft.class_3485,int,int,net.minecraft.class_1959) -> method_16655
+com.terraformersmc.terrestria.init.TerrestriaBiomes -> com.terraformersmc.terrestria.E:
+    net.minecraft.class_1959 CALDERA -> a
+    net.minecraft.class_1959 CALDERA_BEACH -> b
+    net.minecraft.class_1959 CALDERA_FOOTHILLS -> c
+    net.minecraft.class_1959 CALDERA_RIDGE -> d
+    net.minecraft.class_1959 CYPRESS_FOREST -> e
+    net.minecraft.class_1959 CYPRESS_SWAMP -> f
+    net.minecraft.class_1959 DENSE_WOODLANDS -> g
+    net.minecraft.class_1959 DENSE_WOODLANDS_EDGE -> h
+    net.minecraft.class_1959 HEMLOCK_CLEARING -> i
+    net.minecraft.class_1959 HEMLOCK_RAINFOREST -> j
+    net.minecraft.class_1959 JAPANESE_MAPLE_FOREST -> k
+    net.minecraft.class_1959 LUSH_REDWOOD_CLEARING -> l
+    net.minecraft.class_1959 LUSH_REDWOOD_FOREST -> m
+    net.minecraft.class_1959 LUSH_REDWOOD_FOREST_EDGE -> n
+    net.minecraft.class_1959 RAINBOW_RAINFOREST -> o
+    net.minecraft.class_1959 RAINBOW_RAINFOREST_LAKE -> p
+    net.minecraft.class_1959 RAINBOW_RAINFOREST_MOUNTAINS -> q
+    net.minecraft.class_1959 REDWOOD_CLEARING -> r
+    net.minecraft.class_1959 REDWOOD_FOREST -> s
+    net.minecraft.class_1959 REDWOOD_FOREST_EDGE -> t
+    net.minecraft.class_1959 SAKURA_FOREST -> u
+    net.minecraft.class_1959 SNOWY_HEMLOCK_CLEARING -> v
+    net.minecraft.class_1959 SNOWY_HEMLOCK_FOREST -> w
+    net.minecraft.class_1959 VOLCANIC_ISLAND -> x
+    net.minecraft.class_1959 VOLCANIC_ISLAND_BEACH -> y
+    net.minecraft.class_1959 VOLCANIC_ISLAND_SHORE -> z
+    net.minecraft.class_1959 WOODED_CYPRESS_HILLS -> A
+    net.minecraft.class_1959 WOODED_JAPANESE_MAPLE_HILLS -> B
+    net.minecraft.class_1959 WOODED_SAKURA_HILLS -> C
+    void init() -> a
+    net.minecraft.class_1959 register(java.lang.String,net.minecraft.class_1959) -> a
+    void lambda$forEveryBiome$0(java.util.function.Consumer,int,net.minecraft.class_2960,net.minecraft.class_1959) -> a
+com.terraformersmc.terrestria.init.TerrestriaBlocks -> com.terraformersmc.terrestria.F:
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks REDWOOD -> a
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks HEMLOCK -> b
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks RUBBER -> c
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks CYPRESS -> d
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks WILLOW -> e
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks JAPANESE_MAPLE -> f
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks RAINBOW_EUCALYPTUS -> g
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks SAKURA -> h
+    net.minecraft.class_2397 JAPANESE_MAPLE_SHRUB_LEAVES -> a
+    net.minecraft.class_2397 DARK_JAPANESE_MAPLE_LEAVES -> b
+    net.minecraft.class_2397 JUNGLE_PALM_LEAVES -> c
+    com.terraformersmc.terraform.block.LeafPileBlock SAKURA_LEAF_PILE -> a
+    net.minecraft.class_2476 CATTAIL -> a
+    net.minecraft.class_2525 TALL_CATTAIL -> a
+    com.terraformersmc.terraform.block.QuarterLogBlock REDWOOD_QUARTER_LOG -> a
+    com.terraformersmc.terraform.block.QuarterLogBlock HEMLOCK_QUARTER_LOG -> b
+    com.terraformersmc.terraform.block.QuarterLogBlock CYPRESS_QUARTER_LOG -> c
+    com.terraformersmc.terraform.block.QuarterLogBlock RAINBOW_EUCALYPTUS_QUARTER_LOG -> d
+    com.terraformersmc.terraform.block.QuarterLogBlock STRIPPED_REDWOOD_QUARTER_LOG -> e
+    com.terraformersmc.terraform.block.QuarterLogBlock STRIPPED_HEMLOCK_QUARTER_LOG -> f
+    com.terraformersmc.terraform.block.QuarterLogBlock STRIPPED_CYPRESS_QUARTER_LOG -> g
+    com.terraformersmc.terraform.block.QuarterLogBlock STRIPPED_RAINBOW_EUCALYPTUS_QUARTER_LOG -> h
+    com.terraformersmc.terraform.block.TerraformSaplingBlock REDWOOD_SAPLING -> a
+    com.terraformersmc.terraform.block.TerraformSaplingBlock HEMLOCK_SAPLING -> b
+    com.terraformersmc.terraform.block.TerraformSaplingBlock RUBBER_SAPLING -> c
+    com.terraformersmc.terraform.block.TerraformSaplingBlock CYPRESS_SAPLING -> d
+    com.terraformersmc.terraform.block.TerraformSaplingBlock WILLOW_SAPLING -> e
+    com.terraformersmc.terraform.block.TerraformSaplingBlock JAPANESE_MAPLE_SAPLING -> f
+    com.terraformersmc.terraform.block.TerraformSaplingBlock JAPANESE_MAPLE_SHRUB_SAPLING -> g
+    com.terraformersmc.terraform.block.TerraformSaplingBlock DARK_JAPANESE_MAPLE_SAPLING -> h
+    com.terraformersmc.terraform.block.TerraformSaplingBlock RAINBOW_EUCALYPTUS_SAPLING -> i
+    com.terraformersmc.terraform.block.TerraformSaplingBlock SAKURA_SAPLING -> j
+    com.terraformersmc.terraform.block.TerraformSaplingBlock JUNGLE_PALM_SAPLING -> k
+    net.minecraft.class_2468 BASALT_SAND -> a
+    net.minecraft.class_2248 BASALT_DIRT -> a
+    net.minecraft.class_2248 BASALT_GRASS_BLOCK -> b
+    net.minecraft.class_2248 BASALT_GRASS_PATH -> d
+    net.minecraft.class_2248 BASALT_PODZOL -> c
+    com.terraformersmc.terrestria.init.helpers.StoneBlocks BASALT -> a
+    net.minecraft.class_2261 INDIAN_PAINTBRUSH -> a
+    net.minecraft.class_2261 MONSTERAS -> b
+    void init() -> a
+    net.minecraft.class_2248 lambda$init$33() -> a
+    net.minecraft.class_4640 lambda$init$32() -> a
+    net.minecraft.class_2944 lambda$init$31() -> a
+    net.minecraft.class_4640 lambda$init$30() -> b
+    net.minecraft.class_2944 lambda$init$29() -> b
+    net.minecraft.class_4636 lambda$init$28() -> a
+    net.minecraft.class_2944 lambda$init$27() -> c
+    net.minecraft.class_4640 lambda$init$26() -> c
+    net.minecraft.class_2944 lambda$init$25() -> d
+    net.minecraft.class_4640 lambda$init$24() -> d
+    net.minecraft.class_2944 lambda$init$23() -> e
+    net.minecraft.class_4640 lambda$init$22() -> e
+    net.minecraft.class_2944 lambda$init$21() -> f
+    net.minecraft.class_4640 lambda$init$20() -> f
+    net.minecraft.class_2944 lambda$init$19() -> g
+    net.minecraft.class_4636 lambda$init$18() -> b
+    net.minecraft.class_2944 lambda$init$17() -> h
+    net.minecraft.class_4640 lambda$init$16() -> g
+    net.minecraft.class_2944 lambda$init$15() -> i
+    net.minecraft.class_4640 lambda$init$14() -> h
+    net.minecraft.class_2944 lambda$init$13() -> j
+    net.minecraft.class_4636 lambda$init$12() -> c
+    net.minecraft.class_2944 lambda$init$11() -> k
+    net.minecraft.class_4640 lambda$init$10() -> i
+    net.minecraft.class_2944 lambda$init$9() -> l
+    net.minecraft.class_4636 lambda$init$8() -> d
+    net.minecraft.class_2944 lambda$init$7() -> m
+    net.minecraft.class_4640 lambda$init$6() -> j
+    net.minecraft.class_2944 lambda$init$5() -> n
+    net.minecraft.class_2248 lambda$init$4() -> b
+    net.minecraft.class_2248 lambda$init$3() -> c
+    net.minecraft.class_2248 lambda$init$2() -> d
+    net.minecraft.class_2248 lambda$init$1() -> e
+    net.minecraft.class_1792 lambda$init$0() -> a
+com.terraformersmc.terrestria.init.TerrestriaEntities -> com.terraformersmc.terrestria.G:
+    net.minecraft.class_1299 REDWOOD_BOAT -> a
+    net.minecraft.class_1299 HEMLOCK_BOAT -> b
+    net.minecraft.class_1299 RUBBER_BOAT -> c
+    net.minecraft.class_1299 CYPRESS_BOAT -> d
+    net.minecraft.class_1299 WILLOW_BOAT -> e
+    net.minecraft.class_1299 JAPANESE_MAPLE_BOAT -> f
+    net.minecraft.class_1299 RAINBOW_EUCALYPTUS_BOAT -> g
+    net.minecraft.class_1299 SAKURA_BOAT -> h
+    void init() -> a
+    net.minecraft.class_1299 registerBoat$61290e03(java.lang.String,com.terraformersmc.terrestria.biome.CypressSwampBiomes,net.minecraft.class_1690$class_1692) -> a
+    com.terraformersmc.terraform.entity.TerraformBoatEntity lambda$registerBoat$0(com.terraformersmc.terraform.entity.TerraformBoat,net.minecraft.class_1299,net.minecraft.class_1937) -> a
+com.terraformersmc.terrestria.init.TerrestriaFeatureConfigs -> com.terraformersmc.terrestria.H:
+    net.minecraft.class_4640 REDWOOD -> a
+    net.minecraft.class_4636 MEGA_REDWOOD -> a
+    net.minecraft.class_4640 HEMLOCK -> b
+    net.minecraft.class_4636 MEGA_HEMLOCK -> b
+    net.minecraft.class_4640 RUBBER -> c
+    net.minecraft.class_4640 CYPRESS -> d
+    net.minecraft.class_4636 MEGA_CYPRESS -> c
+    net.minecraft.class_4640 WILLOW -> e
+    net.minecraft.class_4640 JAPANESE_MAPLE -> f
+    net.minecraft.class_4640 JAPANESE_MAPLE_SHRUB -> g
+    net.minecraft.class_4640 DARK_JAPANESE_MAPLE -> h
+    net.minecraft.class_4636 MEGA_RAINBOW_EUCALYPTUS -> d
+    net.minecraft.class_4640 SAKURA -> i
+    net.minecraft.class_4640 JUNGLE_PALM -> j
+    net.minecraft.class_4640 TINY_REDWOOD -> k
+    net.minecraft.class_4640 TINY_HEMLOCK -> l
+    com.terraformersmc.terraform.feature.FallenLogFeatureConfig FALLEN_HEMLOCK_LOG -> a
+    com.terraformersmc.terraform.feature.FallenLogFeatureConfig FALLEN_REDWOOD_LOG -> b
+    net.minecraft.class_4640 RAINBOW_EUCALYPTUS -> m
+    net.minecraft.class_4640 spruce(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> a
+    com.terraformersmc.terraform.feature.FallenLogFeatureConfig fallenLog(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> a
+    net.minecraft.class_4640 basic(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> b
+    net.minecraft.class_4640 basic(net.minecraft.class_2680,net.minecraft.class_2680) -> a
+    net.minecraft.class_4636 basicMega(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> a
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.init.TerrestriaFeatures -> com.terraformersmc.terrestria.I:
+    com.terraformersmc.terrestria.feature.trees.RedwoodTreeFeature REDWOOD_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.RedwoodTreeFeatureMega MEGA_REDWOOD_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.HemlockTreeFeature HEMLOCK_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.HemlockTreeFeatureMega MEGA_HEMLOCK_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.CypressTreeFeature CYPRESS_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.templates.CanopyTreeFeatureMega MEGA_CYPRESS_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.WillowTreeFeature WILLOW_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.SakuraTreeFeature SAKURA_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.JapaneseMapleTreeFeature JAPANESE_MAPLE_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.templates.CanopyTreeFeatureMega RAINBOW_EUCALYPTUS_TREE -> b
+    com.terraformersmc.terrestria.feature.trees.PalmTreeFeature JUNGLE_PALM_TREE -> a
+    com.terraformersmc.terrestria.feature.trees.RubberTreeFeature RUBBER_TREE -> a
+    com.terraformersmc.terraform.feature.CattailFeature CATTAIL -> a
+    com.terraformersmc.terraform.feature.FallenLogFeature FALLEN_REDWOOD_LOG -> a
+    com.terraformersmc.terraform.feature.FallenLogFeature FALLEN_HEMLOCK_LOG -> b
+    com.terraformersmc.terrestria.feature.volcano.VolcanoStructureFeature VOLCANO_STRUCTURE -> a
+    net.minecraft.class_3773 VOLCANO_PIECE -> a
+    void init() -> a
+    net.minecraft.class_3031 register(java.lang.String,net.minecraft.class_3031) -> a
+    void addVolcanoStarts(net.minecraft.class_1959[]) -> a
+    void addVolcanoStructure(net.minecraft.class_1959) -> a
+com.terraformersmc.terrestria.init.TerrestriaGeneration -> com.terraformersmc.terrestria.J:
+    void init(com.terraformersmc.terraform.config.BiomeConfig,java.util.Set) -> a
+    void addBiomeVariant(net.minecraft.class_1959,net.minecraft.class_1959,double,java.lang.String,com.terraformersmc.terraform.config.BiomeConfig,java.util.Set) -> a
+    void addContinentalBiome(net.minecraft.class_1959,net.fabricmc.fabric.api.biomes.v1.OverworldClimate,double,java.lang.String,com.terraformersmc.terraform.config.BiomeConfig,java.util.Set) -> a
+com.terraformersmc.terrestria.init.TerrestriaItems -> com.terraformersmc.terrestria.K:
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes REDWOOD$4c0ab2a4 -> a
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes HEMLOCK$4c0ab2a4 -> b
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes RUBBER$4c0ab2a4 -> c
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes CYPRESS$4c0ab2a4 -> d
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes WILLOW$4c0ab2a4 -> e
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes JAPANESE_MAPLE$4c0ab2a4 -> f
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes RAINBOW_EUCALYPTUS$4c0ab2a4 -> g
+    com.terraformersmc.terrestria.biome.CypressSwampBiomes SAKURA$4c0ab2a4 -> h
+    net.minecraft.class_1747 JAPANESE_MAPLE_SHRUB_LEAVES -> a
+    net.minecraft.class_1747 SAKURA_LEAF_PILE -> b
+    net.minecraft.class_1747 CATTAIL -> c
+    net.minecraft.class_1747 RUBBER_SAPLING -> d
+    net.minecraft.class_1747 BASALT_GRASS_BLOCK -> e
+    void init() -> a
+    net.minecraft.class_1299 lambda$init$7() -> a
+    net.minecraft.class_1299 lambda$init$6() -> b
+    net.minecraft.class_1299 lambda$init$5() -> c
+    net.minecraft.class_1299 lambda$init$4() -> d
+    net.minecraft.class_1299 lambda$init$3() -> e
+    net.minecraft.class_1299 lambda$init$2() -> f
+    net.minecraft.class_1299 lambda$init$1() -> g
+    net.minecraft.class_1299 lambda$init$0() -> h
+com.terraformersmc.terrestria.init.TerrestriaSurfaces -> com.terraformersmc.terrestria.L:
+    com.terraformersmc.terraform.surface.FloodingBeachSurfaceBuilder CALDERA -> a
+    com.terraformersmc.terraform.surface.BeachSurfaceBuilder BASALT_BEACH -> a
+    com.terraformersmc.terraform.surface.CliffSurfaceBuilder CLIFF -> a
+    com.terraformersmc.terraform.surface.CliffSurfaceConfig BASALT_CONFIG -> a
+    void init() -> a
+    net.minecraft.class_3523 register(java.lang.String,net.minecraft.class_3523) -> a
+    net.minecraft.class_2680 lambda$init$2(double) -> a
+    net.minecraft.class_2680 lambda$init$1(double) -> b
+    net.minecraft.class_2680 lambda$init$0(double) -> c
+com.terraformersmc.terrestria.init.helpers.StoneBlocks -> com.terraformersmc.terrestria.M:
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks plain -> a
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks smooth -> b
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks cobblestone -> c
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks mossyCobblestone -> d
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks bricks -> e
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks mossyBricks -> f
+    com.terraformersmc.terraform.block.TerraformStoneButtonBlock button -> a
+    com.terraformersmc.terraform.block.TerraformPressurePlateBlock pressurePlate -> a
+    net.minecraft.class_2248 chiseledBricks -> a
+    net.minecraft.class_2248 crackedBricks -> b
+    void <init>() -> <init>
+    com.terraformersmc.terrestria.init.helpers.StoneBlocks register(java.lang.String,net.minecraft.class_3620) -> a
+com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks -> com.terraformersmc.terrestria.N:
+    net.minecraft.class_2248 full -> a
+    net.minecraft.class_2482 slab -> a
+    com.terraformersmc.terraform.block.TerraformStairsBlock stairs -> a
+    net.minecraft.class_2544 wall -> a
+    void <init>() -> <init>
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks register(java.lang.String,net.minecraft.class_3620) -> a
+    com.terraformersmc.terrestria.init.helpers.StoneVariantBlocks register(java.lang.String,java.lang.String,net.minecraft.class_3620) -> a
+com.terraformersmc.terrestria.init.helpers.TerrestriaRegistry -> com.terraformersmc.terrestria.O:
+    net.minecraft.class_1747 registerBlockItem(java.lang.String,net.minecraft.class_2248) -> a
+    com.terraformersmc.terraform.item.TerraformBoatItem registerBoatItem(java.lang.String,java.util.function.Supplier) -> a
+    net.minecraft.class_2248 register(java.lang.String,net.minecraft.class_2248) -> a
+    com.terraformersmc.terraform.entity.TerraformBoatEntity lambda$registerBoatItem$0(java.util.function.Supplier,net.minecraft.class_1937,double,double,double) -> a
+com.terraformersmc.terrestria.init.helpers.WoodBlocks -> com.terraformersmc.terrestria.P:
+    net.minecraft.class_2248 log -> a
+    net.minecraft.class_2248 wood -> b
+    net.minecraft.class_2248 leaves -> c
+    net.minecraft.class_2248 planks -> d
+    net.minecraft.class_2482 slab -> a
+    com.terraformersmc.terraform.block.TerraformStairsBlock stairs -> a
+    net.minecraft.class_2354 fence -> a
+    net.minecraft.class_2349 fenceGate -> a
+    com.terraformersmc.terraform.block.TerraformDoorBlock door -> a
+    com.terraformersmc.terraform.block.TerraformButtonBlock button -> a
+    com.terraformersmc.terraform.block.TerraformPressurePlateBlock pressurePlate -> a
+    com.terraformersmc.terraform.block.TerraformSignBlock sign -> a
+    com.terraformersmc.terraform.block.TerraformWallSignBlock wallSign -> a
+    com.terraformersmc.terraform.block.TerraformTrapdoorBlock trapdoor -> a
+    net.minecraft.class_2248 strippedLog -> e
+    net.minecraft.class_2248 strippedWood -> f
+    java.lang.String name -> a
+    com.terraformersmc.terrestria.init.helpers.WoodColors colors -> a
+    void <init>() -> <init>
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks register(java.lang.String,com.terraformersmc.terrestria.init.helpers.WoodColors,net.fabricmc.fabric.api.registry.FlammableBlockRegistry,boolean) -> a
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks register(java.lang.String,com.terraformersmc.terrestria.init.helpers.WoodColors,net.fabricmc.fabric.api.registry.FlammableBlockRegistry) -> a
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks register(java.lang.String,com.terraformersmc.terrestria.init.helpers.WoodColors,net.fabricmc.fabric.api.registry.FlammableBlockRegistry,com.terraformersmc.terrestria.init.helpers.WoodBlocks$LogSize) -> a
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks registerManufactured(java.lang.String,com.terraformersmc.terrestria.init.helpers.WoodColors,net.fabricmc.fabric.api.registry.FlammableBlockRegistry) -> b
+    com.terraformersmc.terraform.block.QuarterLogBlock registerQuarterLog(java.util.function.Supplier,net.fabricmc.fabric.api.registry.FlammableBlockRegistry) -> a
+    com.terraformersmc.terraform.block.QuarterLogBlock registerStrippedQuarterLog(net.fabricmc.fabric.api.registry.FlammableBlockRegistry) -> a
+    void addTreeFireInfo(net.fabricmc.fabric.api.registry.FlammableBlockRegistry) -> a
+    void addManufacturedFireInfo(net.fabricmc.fabric.api.registry.FlammableBlockRegistry) -> b
+    com.terraformersmc.terrestria.feature.TreeDefinition$Mega getMegaDefinition(net.minecraft.class_2248) -> a
+    net.minecraft.class_2248 lambda$register$2(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> a
+    net.minecraft.class_2248 lambda$register$1(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> b
+    net.minecraft.class_2248 lambda$register$0(com.terraformersmc.terrestria.init.helpers.WoodBlocks) -> c
+com.terraformersmc.terrestria.init.helpers.WoodBlocks$LogSize -> com.terraformersmc.terrestria.Q:
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks$LogSize LARGE -> b
+    com.terraformersmc.terrestria.init.helpers.WoodBlocks$LogSize SMALL -> a
+    void <init>(java.lang.String,int,java.lang.String) -> <init>
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.init.helpers.WoodColors -> com.terraformersmc.terrestria.R:
+    com.terraformersmc.terrestria.init.helpers.WoodColors REDWOOD -> a
+    com.terraformersmc.terrestria.init.helpers.WoodColors HEMLOCK -> b
+    com.terraformersmc.terrestria.init.helpers.WoodColors RUBBER -> c
+    com.terraformersmc.terrestria.init.helpers.WoodColors CYPRESS -> d
+    com.terraformersmc.terrestria.init.helpers.WoodColors WILLOW -> e
+    com.terraformersmc.terrestria.init.helpers.WoodColors JAPANESE_MAPLE -> f
+    com.terraformersmc.terrestria.init.helpers.WoodColors RAINBOW_EUCALYPTUS -> g
+    com.terraformersmc.terrestria.init.helpers.WoodColors SAKURA -> h
+    net.minecraft.class_3620 bark -> a
+    net.minecraft.class_3620 planks -> b
+    net.minecraft.class_3620 leaves -> c
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.terraformersmc.terrestria.item.LogTurnerItem -> com.terraformersmc.terrestria.S:
+    void <init>(net.minecraft.class_1792$class_1793) -> <init>
+    net.minecraft.class_1269 method_7884(net.minecraft.class_1838) -> method_7884
+    void method_7851(net.minecraft.class_1799,net.minecraft.class_1937,java.util.List,net.minecraft.class_1836) -> method_7851
+com.terraformersmc.terrestria.mixin.MixinAbstractTreeFeature -> com.terraformersmc.terrestria.mixin.MixinAbstractTreeFeature:
+    void <init>() -> <init>
+    void hookIsNaturalDirt(net.minecraft.class_3746,net.minecraft.class_2338,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> hookIsNaturalDirt
+    void hookSetToDirt(net.minecraft.class_3747,net.minecraft.class_2338,org.spongepowered.asm.mixin.injection.callback.CallbackInfo) -> hookSetToDirt
+    boolean lambda$hookSetToDirt$1(net.minecraft.class_2680) -> lambda$hookSetToDirt$1
+    boolean lambda$hookIsNaturalDirt$0(net.minecraft.class_2680) -> lambda$hookIsNaturalDirt$0
+com.terraformersmc.terrestria.mixin.MixinAlterGroundTreeDecorator -> com.terraformersmc.terrestria.mixin.MixinAlterGroundTreeDecorator:
+    void <init>() -> <init>
+    void prepareGroundColumn(net.minecraft.class_3747,java.util.Random,net.minecraft.class_2338,org.spongepowered.asm.mixin.injection.callback.CallbackInfo) -> prepareGroundColumn
+    boolean lambda$prepareGroundColumn$0(net.minecraft.class_2680) -> lambda$prepareGroundColumn$0
+com.terraformersmc.terrestria.mixin.MixinAnimalEntity -> com.terraformersmc.terrestria.mixin.MixinAnimalEntity:
+    void <init>() -> <init>
+    void canSpawnAt(net.minecraft.class_1299,net.minecraft.class_1936,net.minecraft.class_3730,net.minecraft.class_2338,java.util.Random,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> canSpawnAt
+com.terraformersmc.terrestria.mixin.MixinEatGrassGoal -> com.terraformersmc.terrestria.mixin.MixinEatGrassGoal:
+    net.minecraft.class_1308 field_6424 -> field_6424
+    net.minecraft.class_1937 field_6421 -> field_6421
+    int field_6422 -> field_6422
+    void <init>() -> <init>
+    void canStart(org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> canStart
+    void tick(org.spongepowered.asm.mixin.injection.callback.CallbackInfo) -> tick
+com.terraformersmc.terrestria.mixin.MixinFeature -> com.terraformersmc.terrestria.mixin.MixinFeature:
+    void <init>() -> <init>
+    void includeAndisol(net.minecraft.class_2248,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> includeAndisol
+com.terraformersmc.terrestria.mixin.MixinFluidBlock -> com.terraformersmc.terrestria.mixin.MixinFluidBlock:
+    void <init>() -> <init>
+    void formBasaltCobblestone(net.minecraft.class_1937,net.minecraft.class_2338,net.minecraft.class_2680,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> formBasaltCobblestone
+com.terraformersmc.terrestria.mixin.MixinMushroomPlantBlock -> com.terraformersmc.terrestria.mixin.MixinMushroomPlantBlock:
+    void <init>() -> <init>
+    void canPlaceAt(net.minecraft.class_2680,net.minecraft.class_4538,net.minecraft.class_2338,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> canPlaceAt
+com.terraformersmc.terrestria.mixin.MixinPlantBlock -> com.terraformersmc.terrestria.mixin.MixinPlantBlock:
+    void <init>() -> <init>
+    void hookPlantOnTop(net.minecraft.class_2680,net.minecraft.class_1922,net.minecraft.class_2338,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> hookPlantOnTop
+com.terraformersmc.terrestria.mixin.MixinSugarCaneBlock -> com.terraformersmc.terrestria.mixin.MixinSugarCaneBlock:
+    void <init>() -> <init>
+    void canPlaceAt(net.minecraft.class_2680,net.minecraft.class_4538,net.minecraft.class_2338,org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable) -> canPlaceAt
+com.terraformersmc.terrestria.mixin.MixinTreeDecoratorType -> com.terraformersmc.terrestria.mixin.MixinTreeDecoratorType:
+    net.minecraft.class_4663 create(java.util.function.Function) -> create

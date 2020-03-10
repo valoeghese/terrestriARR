@@ -1,0 +1,9 @@
+# exclude the bat file I use to run proguard.bat
+obf.bat
+
+# output jars
+terrestriARR.jar
+terrestriFOSS.jar
+
+# my test dir for whether the mod runs
+test/
